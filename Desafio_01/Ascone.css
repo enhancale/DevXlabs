@@ -1,0 +1,131 @@
+/* =====================Removendo os espaços da página============================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ==================Estilizando  o Header da pagina====================== */
+nav{
+   height: 15vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around; 
+}
+
+.navegation_ele{
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navegation_ele .logo{
+    text-decoration: none;
+    color: rgb(1, 22, 1);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+.navegation_ele a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 18px;
+}
+.button-in{
+    height: 10vh;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button-in button{
+    margin:10px;
+    background-color: white;
+    border: none;
+}
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-in .button-sign{
+    background-color: rgb(1, 22, 1);
+    padding: 10px;
+    border-radius: 20px;
+}
+.button-sign .in{
+    color: white;
+}
+
+/* ==========================Estilizando o Section Inicial============================ */
+.tryit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: blueviolet; */
+}
+
+.tryit .boasvindas{
+    height: 60vh;
+    width: 40%;
+    /* background-color: aqua; */
+    /* margin: 20px; */
+}
+.boas-1 small{
+    font-size: medium;
+    /* margin-left: 30px; */
+    color: grey;
+}
+.boas-1 h1{
+    font-size: 60px;
+    width:90%
+    /* margin-left: 30px; */ 
+}
+
+.tryit .ilustrar{
+    height: 60vh;
+    width: 40%;
+    background-color:grey;
+}
+
+.boas-2 p{
+    font-size: medium;
+    color: grey;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.boas-3{
+    display: flex;
+    margin-top: 30px;
+}
+.boas-3 a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    background-color:rgb(1, 22, 1) ;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.stars{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.star-1 small{
+    font-weight: bold;
+}
+
+
