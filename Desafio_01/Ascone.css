@@ -59,7 +59,7 @@ nav{
 
 .button__sign{
     background-color: rgb(1, 22, 1);
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 20px;
 }
 .button__sign a{
@@ -67,7 +67,7 @@ nav{
 }
 /* ===================================FINAL DO HEADER================================ */
 
-/* ==========================Estilizando o Section Inicial============================ */
+/* ==========================ESTILIZANDO A PRIMEIRA SECTION============================ */
 .tryit{
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@ nav{
     color:white;
     font-size: 15px;
     background-color:rgb(1, 22, 1) ;
-    padding: 12px;
+    padding: 10px 15px;
     border-radius: 20px;
 }
 
@@ -218,7 +218,6 @@ nav{
 .ilustra--saving-element{
     height: 5vh;
     width:100%;
-    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,6 +232,221 @@ nav{
 .saving p{
     margin-right: 20px;
 }
+/* ==========ESTILIZANDO AS LOGOS========== */
+.suports{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px;
+    margin: 60px 70px 60px 70px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.suport{
+    height: 5vh;
+    width:10%;
+}
+/* ================================FINAL DA PRIMEIRA SECTION =============================== */
+/* ================================ESTILIZANDO A SEGUNDA SECTION=============================== */
 
+.secondsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondsection__about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondsection__about-h6{
+    font-size: medium;
+    color: grey;
+    padding: 20px;
+    
+}
+.secondsection__about-h1{
+    font-size: 45px;
+    text-align: center;
+}
+.secondsection__about-p{
+    text-align: center;
+    color: grey;
+    padding: 15px;
+}
+.secondsection__grow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.secondsection__grow-1{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0px 50px;
+    background-color: rgb(1, 22, 1);
+    color: white;
+}
+.secondsection__grow-1 h3{
+    font-size: 30px;
+    margin: 40px 0px;
+}
 
+.secondsection__grow-1--estatist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondsection__grow-1--estatist small{
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
+}
+.grafico-2 i{
+    font-size: 200px;
+    color: gray;
+}
+.secondsection__grow-2{
+    background-color: rgb(233, 229, 229);
+    margin: 0px 0px 0px 10px;
+    padding: 174px 150px;
+    border-radius: 0% 0% 0% 25%;
+}
+.secondsection__grow-2 h1{
+    font-size: 30px;
+}
+/* =======================FINAL DA SEGUNDA SECTION=============================== */
+/* ===========================ESTILIZANDO A TERCEIRA SECTION=============================== */
+.terceiroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.terceiroSection__value{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
 
+}
+.terceiroSection__value h6{
+    font-size: medium;
+    color: grey;
+    padding: 40px 0px 10px 0px;
+}
+.terceiroSection__value-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.terceiroSection__value-content h2{
+    font-size: 40px;
+    color: black;
+}
+.terceiroSection__value-content p{
+    margin: 55px 0px 0px 0px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.terceiroSection__cards{
+    display:flex;
+    width: 88%;
+    /* background-color: rgb(233, 229, 229); */
+    padding: 40px 30px;
+}
+.cards{
+    display:flex;
+    flex-direction:column;
+    width: 30%;
+    border: 1px solid gray;
+    margin: 10px;
+}
+.ph-intersect{
+    font-size: 50px;
+    color: rgb(1, 22, 1);
+    margin:40px 0px 0px 40px;
+}
+.cards div{
+    margin:20px 0px 0px 40px;
+}
+.contOfCard h5{
+    font-size:20px;
+    margin:0px 0px 10px 0px;
+}
+.contOfCard p{
+    line-height: 25px;
+    margin:0px 0px 40px 0px;
+}
+.terceiroSection__cards-3{
+    width: 40%;
+    background-color: rgb(233, 229, 229);
+    border-radius: 0% 25% 0% 0%;
+    border: none;
+}
+.angleArow i{
+    font-size: 20px;
+    padding: 15px 15px;
+    color: black;
+    margin:0px 0px 40px 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.cards__span-1 i{
+    color: white;
+    border: none;
+    background-color: rgb(1, 22, 1);
+    border-radius: 50%;
+}
+.terceiroSection__numbers{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin: 30px 0px;
+}
+.box h1{
+    font-size: 100px;
+    color: white;
+}
+.box p{
+    font-size:20px;
+    color: white;
+}
+.box small,h2{
+    color: white;
+}
+
+.box h2{
+    font-size: 35px;
+    line-height:45px;
+    margin: 10px 0px 120px 0px ;
+}
+/* ===================FINAL DA TERCEIRA SECTION=============== */
+/* ===================INICIO DA QUARTA SECTION=============== */
+.quartaSection{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.quartaSection__faq{
+    display:flex;
+    justify-content: center;
+    width:88%;
+    background-color: aqua;
+}
