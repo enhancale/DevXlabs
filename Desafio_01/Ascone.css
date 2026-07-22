@@ -105,7 +105,7 @@ nav{
     text-decoration: none;
     color:white;
     font-size: 15px;
-    background-color:rgb(1, 22, 1) ;
+    background-color:#1c3f3a;
     padding: 10px 15px;
     border-radius: 20px;
 }
@@ -170,7 +170,7 @@ nav{
     margin-bottom: 20px;
     margin-left: 80px;
     font-size: 20px;
-    color:rgb(1, 22, 1);
+    color:#1c3f3a;
 }
 .ilustra--users{
     background-color: rgb(213, 232, 238);
@@ -199,7 +199,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(1, 22, 1);
+    background-color: #1c3f3a;
     color: white;
  }
 /* ==========CAIXA 4========= */
@@ -286,11 +286,9 @@ nav{
 }
 .secondsection__grow-1{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
     padding: 0px 50px;
-    background-color: rgb(1, 22, 1);
+    background-color: #1c3f3a;
     color: white;
 }
 .secondsection__grow-1 h3{
@@ -356,7 +354,6 @@ nav{
 .terceiroSection__cards{
     display:flex;
     width: 88%;
-    /* background-color: rgb(233, 229, 229); */
     padding: 40px 30px;
 }
 .cards{
@@ -408,7 +405,7 @@ nav{
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url("./background.jpg");
+    background-image: url("./img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
@@ -446,7 +443,146 @@ nav{
 }
 .quartaSection__faq{
     display:flex;
-    justify-content: center;
     width:88%;
-    background-color: aqua;
 }
+.faqCont{
+    padding: 50px 30px;
+}
+.quartaSection__faq-1 h6{
+    font-size: medium;
+    color: grey;
+    padding: 0px 0px 10px 0px;
+}
+.quartaSection__faq-1 h1{
+    font-size: 45px;
+}
+.quartaSection__change{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c3f3a;
+    width:88%;
+}
+.quartaSection__change-1{
+    margin: 60px;
+    color: white;
+}
+.quartaSection__change-1 h1{
+    font-size: 50px;
+    padding: 0px 0px 20px 0px;
+}
+.quartaSection__change-1 p{
+    font-size:20px;
+    line-height: 30px;
+    padding: 0px 0px 40px 0px;
+}
+.quartaSection__change-1 a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: gray;
+    border-radius: 60px;
+}
+.quartaSection__change-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.stars__change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.fa-gem{
+    font-size: 100px;
+}
+.quartaSection__change-2 img{
+    height:300px; 
+    width:250px;
+    border-radius: 0% 50% 0% 0%;
+}
+/* ====================FINAL DA QUARTA SECTION=============== */
+/* ====================INICIO DO FOOTER=============== */
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.footerCont{
+    display:flex;
+    align-items: center;
+    width:88%;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+.footerCont-1{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width:60%;
+    padding: 20px 0px;
+}
+.boxFoot h4{
+    color: #1c3f3a;
+    font-size: 20px;
+}
+.boxFoot ul li{
+    list-style: none;
+    padding: 10px 0px 0px 0px ;
+    color: gray;
+}
+.footerCont-2{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+.footerCont--box1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerCont--box1 h1{
+    font-size: 100px;
+    font-weight: normal;
+    color: #1c3f3a;
+}
+.footerCont--box2 {
+    margin:20px 0px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerCont--box2 p{
+    line-height: 18px;
+    color: gray;
+}
+.footerCont--box2 span{
+    margin:40px 0px 0px 0px;
+    color: gray;
+}
+.footerRights{
+    padding: 40px 0px;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-top: 1px solid gray ;
+}
+.footerRights p{
+    color: gray;
+}
+.footerRights div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    justify-content: space-between;
+}
+
