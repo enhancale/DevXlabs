@@ -83,6 +83,9 @@
     }
     .footerCont-1{
         width: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: flex-start;
     }
     .footerCont-2{
         width:100%;
