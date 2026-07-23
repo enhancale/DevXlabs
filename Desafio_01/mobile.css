@@ -1,0 +1,104 @@
+@media Screen and (max-width:430px){
+    /* Primeira Sessão */
+    .tryit{
+        display: flex;
+        flex-direction: column;
+    }
+    .tryit__boasvindas{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 20px; */
+    }
+    .boas-1 small{
+        font-size: medium;
+        color: grey;
+        margin: 0px 0px 0px 10px;
+    }
+    .boas-1 h1{
+        font-size: 60px;
+        margin: 0px 0px 0px 5px;
+        width:100%;
+    }
+    .tryit__boasvindas-ilustration{
+        display: none;
+    }
+    .suports{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px 30px 10px;
+        padding: 30px;
+    }
+    .suport{
+        height: 50px;
+        width:200px;
+        margin: 10px;
+    }
+/* Segunda Sessão */
+    .secondsection__grow{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .secondsection__grow-1{
+        width: 75%;
+    }
+    .secondsection__grow-2 {
+        display:none;
+    }
+/* Terceira Sessão */
+    .terceiroSection__value-content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .terceiroSection__value-content p{
+    margin: 20px 0px 0px 0px;
+    }
+    .terceiroSection__cards{
+        display:flex;
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+    .terceiroSection__numbers{
+        flex-direction: column;
+    }
+    .box h2{
+        margin: 10px 0px 10px 0px ;
+    }
+/* Sessão faq */
+    .faqCont{
+        padding: 50px 0px;
+    }
+/* Quarta sessão */
+    .quartaSection__change-2{
+        display: none;
+    }
+/* Footer */
+    .footerCont{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footerCont-1{
+        width: 100%;
+    }
+    .footerCont-2{
+        width:100%;
+        align-items: flex-start;
+    }
+    .footerCont--box2{
+        width:100%;
+        justify-content: space-between;
+    }
+    .footerRights{
+        padding: 20px 0px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .footerRights div{
+        width:100%
+    }
+}
